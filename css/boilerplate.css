@@ -126,6 +126,30 @@ footer {
 .nav-button:hover {
     background-color: rgb(230, 230, 230);
 }
+.content-button {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(195, 232, 255);
+    border-radius: 5px;
+    transition: all 3s;
+}
+.content-button > a {
+    display: flex;
+    text-decoration: none;
+    font-size: 1.3em;
+    padding: 10px;
+    color: black;
+}
+.content-button:hover {
+    background-color: rgb(118, 239, 255);
+}
+.content-image {
+    width: 75vw;
+    display: flex;
+    object-fit: contain;
+    flex-basis: 0;
+}
 @media (max-width: 1000px) {
     aside {
         display: none;
@@ -143,5 +167,8 @@ footer {
     }
     .nav-list {
         justify-content: space-evenly;
+    }
+    .content-image {
+        width: 92vw;
     }
 }
