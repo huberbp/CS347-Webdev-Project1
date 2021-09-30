@@ -1,9 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <title>Snowsong Underglow</title>
         <link rel="shortcut icon" type="image/png" href="img/favicon.png">
         <style>
+            @import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=EB+Garamond&display=swap');
             body {
                 display: flex;
                 flex-direction: column;
@@ -12,6 +13,7 @@
             }
             header {
                 z-index: 5;
+                background-color: rgb(255, 255, 255);
             }
             .title-bar {
                 display: flex;
@@ -19,7 +21,6 @@
                 padding-left: 10px;
                 margin-top: 10px;
                 margin-bottom: 5px;
-                align-items: top;
             }
             .company-icon {
                 width: 75px;
@@ -30,9 +31,8 @@
                 object-fit: cover;
             }
             .company-name {
-                font-weight: 700px;
                 font-size: 2.2em;
-                font-family: "Arial OS", Helvetica, sans-serif;
+                font-family: "EB Garamond", Helvetica, sans-serif;
                 margin-bottom: 0px;
             }
             .navbar {
@@ -55,6 +55,8 @@
                 margin: 0;
                 padding: 12px 20px;
                 transition: background-color 0.1s;
+                font-family: "EB Garamond", 'Times New Roman', Times, serif;
+                font-size: 1.3em;
             }
             .content-block {
                 flex-grow: 1;
@@ -62,21 +64,65 @@
                 flex-direction: row;
             }
             aside {
+                display: flex;
                 background-image: url("img/aside-background.png");
                 background-color: rgb(190, 190, 190);
                 opacity: 4%;
                 flex-basis: 150px;
+                flex-wrap: wrap;
             }
             main {
                 flex-grow: 1;
                 flex-basis: 0;
+                font-family: 'Cabin', Arial, Helvetica, sans-serif;
+                overflow-wrap: break-word;
+            }
+            main > h1 {
+                font-size: 2.5em;
+            }
+            main > p {
+                font-size: 1.2em;
             }
             footer {
+                display: flex;
                 background-color: rgb(255, 255, 255);
                 box-shadow: 0px -3px 4px rgb(225, 225, 225);
+                font-family: 'Cabin', Arial, Helvetica, sans-serif;
+                flex-direction: row;
+                list-style: none;
+            }
+            .footer-left, .footer-right {
+                display: flex;
+                flex-direction: column;
+                flex-grow: 1;
+                flex-basis: 0;
+                align-items: center;
+                padding: 0px;
+                flex-wrap: wrap;
+            }
+            .footer-right > h1, .footer-left > h1 {
+                font-size: 0.9em;
+                margin: 0px;
+            }
+            .footer-right > p, .credits > li {
+                font-size: 0.6em;
+                margin: 0px;
+            }
+            .credits {
+                display: flex;
+                list-style: none;
+                margin: 0px;
+                padding: 0px;
+                flex-direction: column;
             }
             main, footer, .left, .right {
-                padding: 10px;
+                padding: 1.5em;
+            }
+            main {
+                padding-top: 0;
+            }
+            footer {
+                padding-top: 0.5em;
             }
             .nav-button:hover {
                 background-color: rgb(230, 230, 230);
@@ -87,7 +133,7 @@
         <header>
             <div class="title-bar">
                 <div class="company-icon">
-                    <img src="img/company-icon-larger.png">
+                    <img src="img/company-icon-larger.png" alt="Image of the ficticious company logo: a deer head.">
                 </div>
                 <h1 class="company-name">Snowsong Underglow</h1>
             </div>
@@ -149,11 +195,24 @@
   <p>Sit recusandae eveniet est quae debitis dolor Minima perspiciatis doloremque itaque commodi sequi. Atque nihil ratione magnam ratione laboriosam, culpa, earum Voluptatum ex beatae animi delectus voluptate Ex consectetur tempora dolores reiciendis molestiae Voluptates quisquam beatae corporis ipsam impedit? Vero voluptatum adipisci omnis aliquid repellat Error quisquam ut dolorem nostrum</p>
             </main>
             <aside class="right">
-
+                
             </aside>
         </div>
         <footer>
-            <h2>footer</h2>
+            <div class="footer-left">
+                <h1>This is a project made possible by:</h1>
+                <ul class="credits">
+                    <li>Benjamin Huber - Sole responsibility for design and implementation of website</li>
+                    <li>Michael Stewart - Professor of Creator that enabled him to be able to design this</li>
+                    <li>Dhruv Sridhar - Feedback on fonts and colors</li>
+                    <li>Devin Stipe - Feedback on fonts and colors</li>
+                    <li>Trevor Nicholas - Feedback on fonts and colors</li>
+                </ul>
+            </div>
+            <div class="footer-right">
+                <h1>Report</h1>
+                <p>Insert Report Here once done.</p>
+            </div>
         </footer>
     </body>
 </html>
