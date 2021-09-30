@@ -47,7 +47,7 @@ header {
 }
 .nav-button {
     margin: 0;
-    transition: background-color 0.1s;
+    transition: background-color 0.2s;
 }
 .nav-button > a {
     display: inline-block;
