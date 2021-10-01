@@ -150,6 +150,9 @@ footer {
     object-fit: contain;
     flex-basis: 0;
 }
+textarea {
+    width: 75vw;
+}
 @media (max-width: 1000px) {
     aside {
         display: none;
@@ -169,6 +172,9 @@ footer {
         justify-content: space-evenly;
     }
     .content-image {
+        width: 92vw;
+    }
+    textarea {
         width: 92vw;
     }
 }
