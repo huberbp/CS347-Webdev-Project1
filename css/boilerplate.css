@@ -64,7 +64,7 @@ header {
 }
 aside {
     display: flex;
-    background-image: url("../img/aside-background.png");
+    background-image: url("../images/aside-background.png");
     background-color: rgb(190, 190, 190);
     opacity: 4%;
     flex-basis: 150px;
@@ -152,6 +152,9 @@ footer {
 }
 textarea {
     width: 75vw;
+}
+main > ol > li {
+    margin: 10px;
 }
 @media (max-width: 1000px) {
     aside {
