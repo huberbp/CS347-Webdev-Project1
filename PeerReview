@@ -1,0 +1,41 @@
+1.	What did you like about this website?
+
+I really like the layout of the home page, good use of pictures with light colors makes 
+it more visually appealing. The information on the about us page gives you a good background 
+and makes it more personal. I think people reading this site would feel more connected from it.
+
+2.	Describe one significant difference between your own P1 site and this person's. E.g.
+
+One significant difference is that other than the home page yours is very bland in color. 
+You don’t always need a lot of color and your page still looks visually appealing without 
+it but that is one big difference I noticed.
+
+1.	Which has a better user experience (and why)?
+
+I think we both have a very similar user experience. Our navigation around the page is 
+very similar with a navigation bar that can take you to any page. We also both made it 
+so that the navigation and everything still works well on a handheld device. 
+
+2.	Which codebase do you think would be more maintainable (and why)?
+
+Because mine isn’t as organized, your codebase would be easier to maintain longer, 
+although having one stylesheet for everything can either make it harder or easier to 
+maintain because you have to be very careful with your ids and class names.
+
+3.	Is the code well-structured within files, and well-organized between files and directories?
+
+Yes, the code is very well structured within the files and the files are put into folders for 
+images and css. Really well organized.
+
+4.	Did you find any other issues? If so, briefly enumerate them.
+1.	were semantically appropriate elements selected
+
+yes, I think you used all the right elements and they were very semantically appropriate.
+
+2.	is the CSS refactored to limit duplication?
+
+Because the css is all in one file, there is no way to really have duplication so that is a positive.
+
+5.	Do you have any other constructive comments for the author?
+
+I like your site a lot, I think it is simple but still says a lot and is visually appealing. Great work!
